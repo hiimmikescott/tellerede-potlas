@@ -1,0 +1,64 @@
+body {
+  background-size: cover;
+  font-weight: 500;
+  background: url('./physics_back.jpg');
+  background-repeat: no-repeat;
+}
+
+p {
+  margin: 5px;
+  text-indent: 15px;
+  line-height: 140%;
+  text-align: justify;
+  
+}
+span{
+  font-weight: 800;
+}
+span:hover{
+  color: red;
+}
+
+#tartalom {
+  background-color: rgba(200, 200, 200, 0.85);
+  border-radius: 30px;
+  width: 80%;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 a{
+  font-style: italic;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+}
+
+table {
+  width: 50%;
+  margin: auto;
+}
+
+ul {
+  list-style-image: url('physics_icon.png');
+}
+img{
+  float: right;
+  width: 260px;
+  margin-left: 20px;
+}
+td, th{
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  color: white!important;
+  background-color: grey!important;
+  border-bottom: 1px solid white!important;
+}
+table tr:last-child th{
+  border-bottom: none!important;
+}
